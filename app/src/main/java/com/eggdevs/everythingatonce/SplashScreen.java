@@ -2,6 +2,7 @@ package com.eggdevs.everythingatonce;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -25,5 +26,6 @@ public class SplashScreen extends AppCompatActivity {
             startActivity(mainActivityIntent);
          }
       }, 3000);
+
    }
 }

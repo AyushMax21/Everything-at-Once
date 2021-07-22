@@ -12,6 +12,9 @@ buildscript {
     }
 }
 
+//build tools
+//gradle -> groovy
+
 allprojects {
     repositories {
         google()

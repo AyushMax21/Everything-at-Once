@@ -4,13 +4,17 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/avg"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/avg"
         android:supportsRtl="true"
         android:theme="@style/Theme.EverythingAtOnce">
-
-        <activity android:name=".SplashScreen"
+        <activity android:name=".LocationActivity"></activity>
+        <activity android:name=".UrlActivity" />
+        <activity android:name=".CallActivity" />
+        <activity android:name=".MessageActivity" />
+        <activity
+            android:name=".SplashScreen"
             android:theme="@style/SplashStyle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,12 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".MainActivity">
-
-        </activity>
-
-
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
